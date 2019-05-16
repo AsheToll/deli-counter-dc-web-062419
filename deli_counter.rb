@@ -2,6 +2,7 @@
 def line(deli)
   if deli.length > 0
     deli.each do |name|
+      i = 1
       puts "The line is currently: #{deli[i]}. #{name}"
     end
   else
