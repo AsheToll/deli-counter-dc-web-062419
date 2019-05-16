@@ -1,7 +1,7 @@
 # Write your code here.
 def line(deli)
   if deli.length > 0
-    deli.each_with_index do |name, place|
+    deli.each_with_index.map do |name, place|
       puts "The line is currently: #{place + 1}. #{name}"
     end
   else
