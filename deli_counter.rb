@@ -5,8 +5,8 @@ def line(deli)
     deli.each_with_index do |name, place|
       deli_line << "The line is currently: #{place + 1}. #{name}"
     end
-    deli_line
   else
     puts "The line is currently empty."
   end
+  deli_line
 end
